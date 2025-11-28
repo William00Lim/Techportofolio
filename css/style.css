@@ -610,7 +610,7 @@ body::before{
 
   /* Shrink project card on mobile */
   .wendo-carousel .wcard {
-    width: 250px;
+    width: 350px;
     padding: 0.8rem;
     border-radius: 14px;
     margin: 0 auto;
@@ -619,7 +619,7 @@ body::before{
   
   /* Shrink the project image */
   .wendo-carousel .wcard .wimg {
-    width: 150px; 
+    width: 250px; 
     background-size: cover;
     background-position: center;
     border-radius: 8px;
