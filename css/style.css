@@ -602,14 +602,14 @@ body::before{
   }
   
   /* Shrink and center/right-shift wcard on mobile */
-  .wendo-carousel .wcard {
-    width: 300px;         /* smaller than desktop */
-    height: 400px;        /* your requested height */
+  /* .wendo-carousel .wcard {
+    width: 300px;         
+    height: 400px;       
     padding: 0.9rem;
-    left: 50%;            /* move card to center-ish */
+    left: 50%;          
     transform: translateX(-45%) scale(0.9);  
     border-radius: 16px;
-  }
+  } */
 
   /* Title text */
   .wendo-carousel .wcard h3 {
