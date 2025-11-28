@@ -597,8 +597,8 @@ body::before{
   }
   
   .wendo-carousel .wcard {
-    width: 350px;         
-    height: 450px;       
+    width: 450px;         
+    height: 550px;       
     padding: 0.9rem;
     left: 50%;
     transform: translateX(-45%) scale(0.9);  
@@ -628,10 +628,13 @@ body::before{
   }
 
   .wendo-carousel.wcard.center {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
+    /* left: 50% !important;
+    transform: translateX(-50%) !important; */
     opacity: 1 !important;
-    z-index: 2;
+    /* z-index: 2; */
+    background:rgba(10,10,20,0.75);  /* 90% opaque */
+    border:1px solid rgba(255,255,255,0.50);
+    backdrop-filter:blur(50px);
   }
 
   .wendo-carousel.wcard.right {
