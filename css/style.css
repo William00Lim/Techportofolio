@@ -607,6 +607,14 @@ body::before{
     max-width: 280px;
     margin: 0 auto;
   }
+
+
+  .wendo-carousel .wcard {
+    max-width: 550px;
+    padding: 0.8rem;       
+    border-radius: 14px;
+    margin: 0 auto;
+  }
 }
 
 @keyframes fadeInPage {
