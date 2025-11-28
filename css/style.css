@@ -617,9 +617,9 @@ body::before{
   /* 3. Shrink project-card size on mobile */
   .project-card {
     width: 100%;
-    max-width: 300px;     /* shrink width */
+    max-width: 200px;     /* shrink width */
     margin: 0 auto;       /* center card */
-    padding: 0.9rem 0.9rem; /* reduce padding */
+    padding: 0.8rem 0.8rem; /* reduce padding */
     border-radius: 14px;    /* optional: slightly smaller corners */
   }
 
@@ -630,8 +630,6 @@ body::before{
     border-radius: 10px;
   }
 }
-
-
 
 @keyframes fadeInPage {
   from { opacity: 0; transform: translateY(10px); }
