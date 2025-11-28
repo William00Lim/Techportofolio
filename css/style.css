@@ -586,9 +586,6 @@ body::before{
   /* WENDO CAROUSEL CARDS */
   .wendo-carousel .wcard{
     position:absolute;
-    height:425px;
-    width:100%;
-    max-width:300px;
     padding:0.9rem;
     left:50%;
     transform:translateX(-50%);
