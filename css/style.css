@@ -608,28 +608,29 @@ body::before{
     margin: 0 auto;
   }
   
-.wendo-carousel .wcard {
-  position: absolute;  
-  left: 50%;
-  transform: translateX(-40%);
-  left: 30px;
-  height: 400px;
-  width: 300px;
-  padding: 0.7rem;
-  border-radius: 14px;
-}
+  /* Shrink and center/right-shift wcard on mobile */
+  .wendo-carousel .wcard {
+    width: 300px;         /* smaller than desktop */
+    height: 400px;        /* your requested height */
+    padding: 0.9rem;
+    left: 50%;            /* move card to center-ish */
+    transform: translateX(-45%) scale(0.9);  
+    border-radius: 16px;
+  }
 
+  /* Title text */
   .wendo-carousel .wcard h3 {
     font-size: 1rem;
     text-align: center;
-    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
   }
-  
+
+  /* Description text */
   .wendo-carousel .wcard p {
     font-size: 0.85rem;
-    line-height: 1;
+    line-height: 1.25;
     text-align: left;
-    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
   }
 }
 
