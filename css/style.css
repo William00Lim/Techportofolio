@@ -610,7 +610,7 @@ body::before{
     font-size:0.85rem;
     line-height:1.1;
     text-align:center;
-    margin-left:1px; /* ← SHIFT 1px TO THE RIGHT */
+    margin-left:3px; /* ← SHIFT 1px TO THE RIGHT */
     overflow-wrap:break-word;
   }
 
