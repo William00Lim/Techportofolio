@@ -554,6 +554,19 @@ body::before{
   .main-nav.open{display:flex;}
   .menu-toggle{display:inline-block;}
 
+  .info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .info-card {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
   .skills-grid{grid-template-columns:1fr;}
 
   .wendo-carousel{
