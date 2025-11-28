@@ -468,13 +468,6 @@ body::before{
   z-index:2;
 }
 
-/* Any other hidden cards */
-.wcard.hidden{
-  opacity:0;
-  pointer-events:none;
-  z-index:0;
-}
-
 /* Center title ALWAYS */
 .wcard h3 {
   text-align: center !important;
@@ -631,6 +624,30 @@ body::before{
     line-height: 1.25;
     text-align: left;
     overflow-wrap: break-word;
+  }
+
+  /* LEFT CARD — move slightly left */
+  .wcard.left {
+    left: 0 !important;              /* align a bit left */
+    transform: translateX(-10px) !important;
+    opacity: 1 !important;
+    z-index: 1;
+  }
+
+  /* CENTER CARD — place in the center */
+  .wcard.center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    opacity: 1 !important;
+    z-index: 2;
+  }
+
+  /* RIGHT CARD — move slightly right */
+  .wcard.right {
+    left: calc(100% - 260px) !important;  /* card width */
+    transform: translateX(10px) !important;
+    opacity: 1 !important;
+    z-index: 1;
   }
 }
 
